@@ -16,7 +16,20 @@ I'm 33. I'd like to learn profession of FE developer.
 - React JS, Redux (initial level).
 - Version control: Git (initial level).
 - Editors: WebStorm.
-
+### Code examples:
+```javascript
+    String.prototype.toJadenCase = function (string) {
+        let jadenString = ''
+        for (let i = 0; i < this.length; i++) {
+        if (i === 0 || this[i - 1] === ' ') {
+            jadenString += this[i].toUpperCase()
+            } else {
+            jadenString += this[i]
+            }
+        }
+        return jadenString
+    };
+```
 ### Work experience:
 social network by it-kamasutra course,
 [github](https://github.com/gittedMark/Social-Network);
